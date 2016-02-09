@@ -14,6 +14,11 @@
 		DA300D421C69429F001D5C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA300D401C69429F001D5C3F /* LaunchScreen.storyboard */; };
 		DA300D4D1C69429F001D5C3F /* role_playing_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D4C1C69429F001D5C3F /* role_playing_gameTests.swift */; };
 		DA300D581C6942A0001D5C3F /* role_playing_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D571C6942A0001D5C3F /* role_playing_gameUITests.swift */; };
+		DA300D661C69438D001D5C3F /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D651C69438D001D5C3F /* character.swift */; };
+		DA300D681C6A8238001D5C3F /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D671C6A8238001D5C3F /* player.swift */; };
+		DA300D6A1C6A85C0001D5C3F /* enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D691C6A85C0001D5C3F /* enemy.swift */; };
+		DA300D6C1C6A88E0001D5C3F /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D6B1C6A88E0001D5C3F /* Kimara.swift */; };
+		DA300D6E1C6A8BC1001D5C3F /* devil-wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA300D6D1C6A8BC1001D5C3F /* devil-wizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		DA300D531C6942A0001D5C3F /* role-playing-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "role-playing-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA300D571C6942A0001D5C3F /* role_playing_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = role_playing_gameUITests.swift; sourceTree = "<group>"; };
 		DA300D591C6942A0001D5C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA300D651C69438D001D5C3F /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		DA300D671C6A8238001D5C3F /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		DA300D691C6A85C0001D5C3F /* enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enemy.swift; sourceTree = "<group>"; };
+		DA300D6B1C6A88E0001D5C3F /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		DA300D6D1C6A8BC1001D5C3F /* devil-wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "devil-wizard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 			children = (
 				DA300D371C69429F001D5C3F /* AppDelegate.swift */,
 				DA300D391C69429F001D5C3F /* ViewController.swift */,
+				DA300D651C69438D001D5C3F /* character.swift */,
+				DA300D671C6A8238001D5C3F /* player.swift */,
+				DA300D691C6A85C0001D5C3F /* enemy.swift */,
 				DA300D3B1C69429F001D5C3F /* Main.storyboard */,
 				DA300D3E1C69429F001D5C3F /* Assets.xcassets */,
 				DA300D401C69429F001D5C3F /* LaunchScreen.storyboard */,
 				DA300D431C69429F001D5C3F /* Info.plist */,
+				DA300D6B1C6A88E0001D5C3F /* Kimara.swift */,
+				DA300D6D1C6A8BC1001D5C3F /* devil-wizard.swift */,
 			);
 			path = "role-playing-game";
 			sourceTree = "<group>";
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA300D6E1C6A8BC1001D5C3F /* devil-wizard.swift in Sources */,
+				DA300D6A1C6A85C0001D5C3F /* enemy.swift in Sources */,
+				DA300D681C6A8238001D5C3F /* player.swift in Sources */,
+				DA300D6C1C6A88E0001D5C3F /* Kimara.swift in Sources */,
+				DA300D661C69438D001D5C3F /* character.swift in Sources */,
 				DA300D3A1C69429F001D5C3F /* ViewController.swift in Sources */,
 				DA300D381C69429F001D5C3F /* AppDelegate.swift in Sources */,
 			);
